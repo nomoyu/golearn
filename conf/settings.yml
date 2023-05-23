@@ -1,0 +1,13 @@
+server:
+  port: 3317
+
+log:
+  MaxSize: 1 # 日志文件最大尺寸M
+  MaxBackups: 10 # 保留最大个数
+  MaxAge: 90 # 保留最大天数
+
+mod:
+  develop: true
+
+db:
+  dsn: root:awds22@tcp(127.0.0.1:3306)/golearn?charset=utf8mb4&parseTime=True&loc=Local
